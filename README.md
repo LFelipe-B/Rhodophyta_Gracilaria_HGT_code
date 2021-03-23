@@ -17,8 +17,11 @@ Table containing the raw results from the script "Get_HGT_tax_distribution_rhodo
 # Get_HGT_indexes_V5_rhodophyta.py
 Script to calculate the Alien and HGT indexes from taxonomically annotated diamond outputs (for blast it would require some customization for the file format, as well if you use a blast output
 
-#get_sequence_GC3.py
+# get_sequence_GC3.py
 Script to calculate the GC3 in the third codon position using a CDSs list (in fasta format)
 
 # HGT_list_per_scaffold_sorted.csv
 Name and number of scaffolds where a HGT event was found
+
+#Gracilaria_GC3_scaffold_dist_stats_2021.txt
+Statistical tests run in R to test for GC3 differences in HGT candidates and for distribution of HGT events in scaffolds
