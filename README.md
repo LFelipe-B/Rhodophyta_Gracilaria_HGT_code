@@ -23,5 +23,5 @@ Script to calculate the GC3 in the third codon position using a CDSs list (in fa
 # HGT_list_per_scaffold_sorted.csv
 Name and number of scaffolds where a HGT event was found
 
-#Gracilaria_GC3_scaffold_dist_stats_2021.txt
+# Gracilaria_GC3_scaffold_dist_stats_2021.txt
 Statistical tests run in R to test for GC3 differences in HGT candidates and for distribution of HGT events in scaffolds
