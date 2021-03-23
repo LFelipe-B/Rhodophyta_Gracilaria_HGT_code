@@ -1,0 +1,53 @@
+# in R
+
+# upload lib
+library(ggplot2)
+
+# upload dataframe table
+scaff <- read.csv("HGT_list_per_scaffold_sorted.csv")
+
+scaff <- read.csv("hgtCDS_felipe.fasta_GC123_distrib.csv")
+
+# shapiro test to check for normal distribution
+shapiro.test(scaff$count)
+
+Shapiro-Wilk normality test
+
+data:  scaff$count
+W = 0.65622, p-value = 2.104e-14
+
+
+
+
+
+# calculate mean and standard error: from here: https://www.r-bloggers.com/standard-deviation-vs-standard-error/
+https://stat.ethz.ch/pipermail/r-help/2003-December/043402.html
+#https://www.rdocumentation.org/packages/stats/versions/3.5.2/topics/sd
+
+#sd(x)/sqrt(length(x))
+
+# input table GC3 full CDS
+tab<-read.csv("hgtCDS_felipe.fasta_GC123_distrib.csv", sep=",", header=TRUE)
+
+# calculate mean
+mean(tab$GC3.)
+
+# calculate standard error
+sd(tab$GC3.)/sqrt(length(tab$GC3.))
+
+# input table GC3 GF CDS
+
+tt<-read.csv("g_domingensis_CDS.fasta_GC123_distrib.csv", header=TRUE)
+
+# calculate mean
+mean(tt$GC3.)
+
+# calculate standard error
+sd(tt$GC3.)/sqrt(length(tt$GC3.))
+
+
+#wilcox test
+wilcox.test(tt$GC3.,tab$GC3.)
+
+#t test
+t.test(tt$GC3.,tab$GC3.)
