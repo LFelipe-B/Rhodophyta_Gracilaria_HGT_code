@@ -1,6 +1,6 @@
-## This repository contains codes and tables used to infer horizontal gene transfer (HGT) events and calculate stats derived from these data, using as query the red algae (Rhodophyta) genome from the species Gracilaria dominguensis. Analysis were run betwen September-January 2020-2021.
+This repository contains codes and tables used to infer horizontal gene transfer (HGT) events and calculate stats derived from these data, using as query the red algae (Rhodophyta) genome from the species Gracilaria dominguensis. Analysis were run betwen September-January 2020-2021.
 
-# File list:
+File list:
 
 # g_domingensis_CDS.fasta_GC123_distrib.csv
 Table containing the subset of CDSs from putative HGT events GC ratio of the third codon position (GC3)
