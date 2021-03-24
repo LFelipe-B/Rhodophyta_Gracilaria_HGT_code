@@ -1,0 +1,6 @@
+Query,n of total hits,n of nontarget,half n of total hits,Taxon dist HGT
+scaffold278-size71645-gene-0.3,1,0,0.5,False
+scaffold5-size699606-gene-0.19,20,0,10.0,False
+scaffold5-size699606-gene-0.20,18,0,9.0,False
+scaffold5-size699606-gene-0.22,16,3,8.0,False
+scaffold5-size699606-gene-0.24,8,0,4.0,False
